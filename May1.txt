@@ -2,6 +2,10 @@
 echo "# MiPrimerSourceControl" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/Maylin1308/MiPrimerSourceControl.git
-git push -u origin master1
+Warning: Cannot merge binary files: .vs/MiPrimerSourceControl2/v15/.suo (HEAD vs. 42269f086e7d85a369a9ec7505755616c8bbee24)
+Error: CONFLICT (add/add): Merge conflict in .vs/MiPrimerSourceControl2/v15/.suo
+Automatic merge failed; fix conflicts and then commit the result.
+
+Commit 6e5015a4 created locally in repository C:\Users\Laboratorios\Source\Repos\MiPrimerSourceControl2
+Error: cannot spawn /C/Program Files (x86)/Microsoft Visual Studio/2017/Professional/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/Git/mingw32/libexec/git-core/git-askpass.exe: No such file or directory
+Error encountered while pushing to the remote repository: Git failed with a fatal erro

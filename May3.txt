@@ -1,2 +1,11 @@
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.v
+
+Commit 6e5015a4 created locally in repository C:\Users\Laboratorios\Source\Repos\MiPrimerSourceControl2
+Error: cannot spawn /C/Program Files (x86)/Microsoft Visual Studio/2017/Professional/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/Git/mingw32/libexec/git-core/git-askpass.exe: No such file or directory
+Error encountered while pushing to the remote repository: Git failed with a fatal error.
+could not read Username for 'https://github.com': terminal prompts disabled
+Pushing to https://github.com/Maylin1308/MiPrimerSourceControl
+
+Error: cannot spawn /C/Program Files (x86)/Microsoft Visual Studio/2017/Professional/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/Git/mingw32/libexec/git-core/git-askpass.exe: No such file or directory
+Error encountered while pushing to the remote repository: Git failed with a fatal error.
