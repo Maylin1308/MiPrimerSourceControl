@@ -4,7 +4,9 @@ Parte de la familia BSD
 IOS wordmark (2017).svg
  Apple iPhone.jpg
 
-iOS 11 screenshot
+iOS 11 screenshot///////////////////////////////
+//////////////////////////////
+//////////////////////////////////
 Desarrollador
 Apple Inc.
 www.apple.com/es/ios
