@@ -1,0 +1,212 @@
+
+GNU/Linux
+El logotipo oficial del Proyecto GNU es un ñú y del núcleo Linux el pingüino Tux
+
+Imagen alegórica del sistema operativo
+Desarrollador
+Richard Stallman, Proyecto GNU, Linus Torvalds, et al.
+https://www.gnu.org/
+Información general
+Modelo de desarrollo	Software libre y código abierto
+Última versión estable	(kernel) 4.18.11 (info)
+29 de septiembre de 2018 ()
+Última versión en pruebas	(kernel) 4.19.rc5 (info)
+23 de septiembre de 2018 (6 días)
+Escrito en	C y otros
+Núcleo	Núcleo Linux
+Plataformas soportadas	DEC Alpha, ARM, AVR32, Blackfin, ETRAX CRIS, FR-V, H8/300, Itanium, M32R, m68k, Microblaze, MIPS, MN103, PA-RISC, PowerPC, s390, S+core, SuperH, SPARC, TILE64, Unicore32, x86, Xtensa
+Licencia	GNU General Public License y otras
+Estado actual	En desarrollo
+En español	Sí 
+[editar datos en Wikidata]
+Escucha este artículo
+(info)
+
+MENÚ0:00
+Esta narración de audio fue creada a partir de una versión específica de este artículo y no refleja las posibles ediciones subsiguientes.
+Más artículos grabados
+¿Problemas al reproducir este archivo?
+GNU/Linux, también conocido como Linux, es un sistema operativo libre tipo Unix; multiplataforma, multiusuario y multitarea. El sistema es la combinación de varios proyectos, entre los cuales destacan GNU (encabezado por Richard Stallman y la Free Software Foundation) y el núcleo Linux (encabezado por Linus Torvalds). Su desarrollo es uno de los ejemplos más prominentes de software libre: todo su código fuente puede ser utilizado, modificado y redistribuido libremente por cualquiera, bajo los términos de la GPL (Licencia Pública General de GNU) y otra serie de licencias libres.1?
+
+A pesar de que «Linux» denomina en la jerga cotidiana al sistema operativo,2?3? éste es en realidad solo el kernel (núcleo) del sistema. La idea de hacer un sistema completo se remonta a mediados de la década de 1980 con el proyecto GNU, así como una gran cantidad de los componentes que se usan hoy en día (además del núcleo), que van desde los compiladores de GNU hasta entornos de escritorio.4? Sin embargo, tras la aparición de Linux en la década de 1990 una parte significativa de los medios generales y especializados han utilizado el término «Linux» para referirse al todo. Esto ha sido motivo de polémicas.
+
+Cabe señalar que existen derivados de Linux que no tienen componentes GNU (por ejemplo Android), así como distribuciones de GNU donde Linux está ausente (por ejemplo Debian GNU/Hurd).
+
+A GNU/Linux se le encuentra normalmente en forma de compendios conocidos como distribuciones o distros, a las cuales se les han adicionado selecciones de aplicaciones y programas para descargar e instalar las mismas. El propósito de una distribución es ofrecer GNU/Linux como un producto final que el usuario pueda instalar, cumpliendo con las necesidades de un grupo de usuarios o bien del público general.
+
+Algunas de ellas son especialmente conocidas por su uso en servidores de Internet, supercomputadoras, y sistemas embebidos ;5? donde GNU/Linux tiene la cuota más importante del mercado. Según un informe de IDC, GNU/Linux es utilizado por el 78% de los principales 500 servidores del mundo.6? Top500.org informa, en su lista de noviembre de 2017, que todas las 500 supercomputadoras más potentes del mundo utilizan Linux.7? Con menor participación, el sistema GNU/Linux también se usa en el segmento de las computadoras de escritorio, portátiles, computadoras de bolsillo, teléfonos móviles, videoconsolas y otros dispositivos.
+
+
+Índice
+1	Etimología
+2	Historia
+2.1	Antecedentes
+2.2	Creación
+3	Componentes
+3.1	Entorno gráfico
+3.2	Como sistema de programación
+3.3	Aplicaciones de usuario
+3.4	Software de código cerrado para GNU/Linux
+4	Empresas que patrocinan su uso
+5	Cuota de mercado
+6	Aplicaciones
+6.1	Supercomputadoras
+7	Implantación
+7.1	Administración Pública
+7.2	Fuerzas Armadas
+8	Denominación GNU/Linux
+9	Distribuciones
+9.1	Principales distribuciones GNU/Linux
+9.1.1	Ubuntu, para usos generales.
+9.2	100% Libres de Linux
+9.3	Otras distribuciones
+10	Véase también
+11	Referencias
+12	Bibliografía
+13	Enlaces externos
+Etimología
+Véase también: #Denominación GNU/Linux
+El acrónimo recursivo GNU, GNU's Not Unix (GNU no es Unix), proviene de las herramientas básicas de sistema operativo creadas por el proyecto GNU, iniciado por Richard Stallman en 1983 y mantenido por la FSF. El nombre Linux viene del núcleo Linux, inicialmente escrito por Linus Torvalds en 1991.8?
+
+La contribución de GNU es la razón por la que existe controversia a la hora de utilizar Linux o GNU/Linux para referirse al sistema operativo formado por el sistema GNU y el núcleo Linux en su conjunto.9?10?
+
+Historia
+
+Richard Matthew Stallman, Fundador del Movimiento del software libre, de la FSF y del Proyecto GNU.
+Artículos principales: Historia de Linux e Historia del proyecto GNU.
+
+Linus Torvalds, creador del núcleo Linux.
+Antecedentes
+El sistema operativo Unix fue concebido e implementado en 1969 en los laboratorios Bell de AT&T en los Estados Unidos por Ken Thompson, Dennis Ritchie, Douglas McIlroy, y Joe Ossanna.11? Por primera vez en 1971, Unix fue escrito completamente en lenguaje ensamblador, ya que era una práctica común en el momento. Más tarde, en un enfoque innovador clave en 1973, se volvió a escribir en el lenguaje de programación C por Dennis Ritchie (a excepción del núcleo y sistema I/O). La disponibilidad de un lenguaje de alto nivel para implementar Unix hizo su portabilidad a diferentes plataformas de computación más fácil; ayudando a su propagación.
+
+Debido a un anterior caso antimonopolio que le prohibía entrar en el negocio de las computadoras, AT&T licenciaba gratuitamente el código fuente del sistema operativo para cualquier persona que lo pidiera.12? Como resultado, Unix creció rápidamente y llegó a ser ampliamente adoptado por las instituciones académicas y empresas. En 1984, AT&T se despojó de Bell Labs; quedando libre de la obligación legal que requería la concesión de dichas licencias.[cita requerida]
+
+Creación
+El proyecto GNU, iniciado en 1983 por Richard Stallman, tiene el objetivo de crear un "sistema de software compatible con Unix compuesto enteramente de software libre". El trabajo comenzó en el año 1984.13? Más tarde, en 1985, Stallman fundó la Free Software Foundation para financiar el desarrollo de GNU, y escribió la Licencia Pública General de GNU (GNU GPL) en 1989. A principios de la década de 1990, muchos de los programas que se requieren en un sistema operativo (como bibliotecas, compiladores, editores de texto, un shell Unix, y un sistema de ventanas) ya se encontraban en operación. Sin embargo otros elementos como los controladores de dispositivos y los daemons estaban incompletos.14?
+
+Linus Torvalds ha declarado que si el núcleo de GNU hubiera estado disponible en el momento (1991), no se habría decidido a escribir su propio núcleo.15? Aunque no es liberado hasta 1992 debido a complicaciones legales, el desarrollo de 386BSD (de los cuales NetBSD, OpenBSD y FreeBSD descienden) es anterior al de Linux. Torvalds también ha declarado que si 386BSD hubiera estado disponible en ese momento, probablemente no habría creado Linux.16?
+
+En 1991 Torvalds asistía a la Universidad de Helsinki. Usuario de MINIX y de los programas provenientes de GNU, se mostraba interesado por los sistemas operativos.17? Comenzó a trabajar en su propio núcleo en ese año, frustrado por la concesión de licencias que utilizaba MINIX, que en ese momento se limitaba a uso educativo.18?17?
+
+El núcleo Linux maduró hasta superar los otros núcleos en desarrollo.19? Las aplicaciones GNU también remplazaron todos los componentes de MINIX, porque era ventajoso utilizar el código libre del proyecto GNU con el nuevo sistema operativo. El código GNU con licencia bajo la GPL puede ser reutilizado en otros programas de computadora, siempre y cuando también se liberen bajo la misma licencia o una licencia compatible. Torvalds inició un cambio de su licencia original, que prohibía la redistribución comercial, a la GPL.20? Los desarrolladores de ambas partes trabajaron para integrar componentes de GNU con el núcleo Linux, consiguiendo un sistema operativo completamente funcional.18?
+
+Componentes
+Entorno gráfico
+Artículo principal: Entorno de escritorio
+GNU/Linux puede funcionar tanto en entorno gráfico como en modo consola. La consola es común en distribuciones para servidores, mientras que la interfaz gráfica está orientada al usuario final tanto de hogar como empresarial. Asimismo, también existen los entornos de escritorio, que son un conjunto de programas conformado por ventanas, iconos y muchas aplicaciones que facilitan la utilización de la computadora. Los escritorios más populares en GNU/Linux son: GNOME, KDE Plasma , LXDE, LXQt, Xfce, Unity, MATE y Cinnamon.
+
+
+Escritorio KDE SC 4.10
+
+ 
+
+Escritorio GNOME 3.0
+
+ 
+
+Escritorio XFCE 4.4
+
+ 
+
+Escritorio LXDE 0.5
+
+ 
+
+Escritorio KDE Plasma
+
+ 
+
+Escritorio LXQt
+
+ 
+
+Escritorio openbox
+
+Como sistema de programación
+La colección de utilidades para la programación de GNU es con diferencia la familia de compiladores más utilizada en este sistema operativo. Tiene capacidad para compilar C, C++, Java, Ada, Pascal, D y Fortran entre otros muchos lenguajes. Además soporta diversas arquitecturas de procesador mediante la compilación cruzada, lo que hace que sea un entorno adecuado para desarrollos heterogéneos.
+
+Hay varios entornos de desarrollo integrados disponibles para GNU/Linux incluyendo, Anjuta, KDevelop, Lazarus, Ultimate++, Code::Blocks, NetBeans IDE y Eclipse. También existen editores extensibles como Emacs o Vim. GNU/Linux también dispone de capacidades para lenguajes de guion (script), aparte de los clásicos lenguajes de programación de shell, o el de procesado de textos por patrones y expresiones regulares conocido como awk. La mayoría de las distribuciones tienen instalado Python, Perl, PHP y Ruby.
+
+Aplicaciones de usuario
+Las aplicaciones para GNU/Linux se distribuyen en una variedad de formatos debido a la diversidad de métodos de manejo de paquetes, algunos más listos para ser ejecutados que otros. Mientras que en sistemas como Windows o MacOS el usuario normalmente busca el software de terceros por su cuenta; las distribuciones GNU/Linux fueron pioneras de los repositorios curados de aplicaciones soportadas oficialmente por el sistema operativo, similar a las tiendas de aplicaciones modernas.21?22? Las aplicaciones precompiladas existen mayoritariamente en los formatos .deb y .rpm, usados en Debian y Red Hat respectivamente y sus descendientes. También existe la posibilidad de compilar los programas en forma de recetas make a partir de su código fuente, y algunos desarrolladores de aplicaciones sólo distribuyen su software de esta manera, transfiriendo la labor de crear un programa ejecutable a las distribuciones interesadas en empaquetar su aplicación, o al usuario.
+
+Software de código cerrado para GNU/Linux
+Durante la primera época había pocas aplicaciones de código cerrado para GNU/Linux. Con el tiempo se fueron uniendo programas no libres al sistema GNU/Linux, entre ellos Adobe Reader, Adobe Flash, Opera, entre otros.
+
+Empresas que patrocinan su uso
+Con la adopción por numerosas empresas fabricantes, un buen número de computadoras se venden con distribuciones preinstaladas, y GNU/Linux ha comenzado a tomar su lugar en el vasto mercado de las computadoras de escritorio.
+
+Algunas de las empresas que colaboran en la difusión de este sistema operativo ya sea trabajando en el núcleo Linux, proporcionando soluciones de software o preinstalando el sistema operativo, son: Intel ,23?24?25? Google,26?27? IBM,28? AMD,29?30?31?32? Sun Microsystems,33? Dell,34?35? Lenovo,36?37? Asus,38? Hewlett-Packard (HP),39?40?41? Silicon Graphics International (SGI),42? Renesas Technology,43? Fujitsu,44? Analog Devices,45? Freescale,46? VIA Technologies,47? Oracle,48? Novell49? y RedHat,50? entre otras.51?
+
+El respaldo de compañías de software también está presente, ya que, entre otras aplicaciones, Nero, Java, Google Earth, Google Desktop, Adobe Reader, Adobe Flash, RealPlayer y Yahoo! Messenger están disponibles para GNU/Linux. Al haber software equivalente, es innecesario instalar los precisamente mencionados con anterioridad.
+
+Cuota de mercado
+Artículo principal: Adopción de Linux
+
+IBM Roadrunner, la supercomputadora más potente de 2008, funcionó bajo la distribución GNU/Linux Red Hat Enterprise Linux hasta ser desmantelada.
+Numerosos estudios cuantitativos sobre software de código abierto están orientados a temas como la cuota de mercado y la fiabilidad, y ciertamente muchos de estos estudios examinan específicamente a GNU/Linux.52?
+
+La medición "cuota de mercado" puede resultar inservible ya que es un concepto basado en ventas comerciales (unidades materiales vendidas). Por otro lado Linux es utilizado frecuentemente en servidores con acceso público desde Internet por lo que la cuota de mercado es extremadamente inferior a la cuota de uso. Baste notar, p.ej, que Facebook, Gmail, LinkedIn o Yahoo funcionan sobre servidores GNU/Linux, de tal forma que cuando estamos accediendo desde un navegador ejecutándose en Windows/Mac, la aplicación real se está ejecutando en servidores Linux y los datos están almacenándose igualmente en dichos servidores.
+
+Hay varias empresas que comercializan soluciones basadas en GNU/Linux: IBM, Novell (SuSE), Red Hat (RHEL), Mandriva (Mandriva Linux), Rxart, Canonical Ltd. (Ubuntu), así como miles de PYMES que ofrecen productos o servicios basados en esta tecnología.
+
+Una aproximación estadística básica y estimada sobre número de usuarios de GNU/Linux a escala global lo ofrece el proyecto Linux Counter.
+
+Aplicaciones
+Supercomputadoras
+Dentro del segmento de la PC Master Race, a noviembre de 2017, el uso de este sistema ascendió al 100% de las computadoras más potentes del mundo por su confiabilidad, seguridad y libertad para modificar el código.53? De acuerdo con TOP500.org, que lleva estadísticas sobre las 500 principales supercomputadoras del mundo, a noviembre de 2017: las 500 usaban una distribución basada en GNU/Linux.
+
+GNU/Linux, además de liderar el mercado de servidores de Internet debido, entre otras cosas, a la gran cantidad de soluciones que tiene para este segmento, tiene un crecimiento progresivo en computadoras de escritorio y portátiles. Además, es el sistema base que se ha elegido para el proyecto OLPC: One Laptop Per Child.54?
+
+Para saber más sobre las arquitecturas soportadas, lea el artículo "Portabilidad del núcleo Linux y arquitecturas soportadas".
+
+Implantación
+Administración Pública
+Véase también: Software libre en la Administración Pública
+Hay una serie de administraciones públicas que han mostrado su apoyo al software libre, sea migrando total o parcialmente sus servidores y sistemas de escritorio, sea subvencionándolo. Como ejemplos se tiene a Alemania, Argentina, Australia, Brasil, España, Chile, China, Cuba, México, Perú, Ecuador, El Salvador, Uruguay y Venezuela.
+
+Fuerzas Armadas
+El sistema operativo del General Atomics MQ-1 Predator está basado en GNU/Linux,55? así como el del Boeing P-8 Poseidon.56?
+
+Denominación GNU/Linux
+Artículo principal: Controversia por la denominación GNU/Linux
+
+Evolución de los sistemas UNIX
+Parte de la comunidad y numerosos medios prefieren denominar a esta combinación como Linux, aunque GNU/Linux (con las variantes GNU con Linux y GNU+Linux) es la denominación defendida por el Proyecto GNU y la FSF junto con otros desarrolladores y usuarios para el conjunto que utiliza el sistema operativo Linux en conjunto con las aplicaciones de sistema creadas por el proyecto GNU y por muchos otros proyectos de software.57?58?
+
+Desde 1984, Richard Stallman y muchos voluntarios están intentando crear un sistema operativo libre con un funcionamiento similar al UNIX, recreando todos los componentes necesarios para tener un sistema operativo funcional. A comienzos de los años 90, unos seis años desde el inicio del proyecto, GNU tenía muchas herramientas importantes listas, como editores de texto, compiladores, depuradores, intérpretes de comandos de órdenes etc., excepto por el componente central: el núcleo.
+
+GNU tiene su propio proyecto de núcleo, llamado Hurd. Sin embargo, su desarrollo no continuó como se esperaba al aparecer el núcleo Linux. De esta forma se completaron los requisitos mínimos y surgió el sistema operativo GNU que utilizaba el núcleo Linux.
+
+El principal argumento de los defensores de la denominación GNU/Linux es resolver la posible confusión que se puede dar entre el núcleo (Linux) y gran parte de las herramientas básicas del resto del sistema operativo (GNU), y del sistema completo que usualmente se usa como combinación de GNU, Linux, y otros proyectos de software. Además, también se espera que con el uso del nombre GNU, se dé al proyecto GNU el reconocimiento por haber creado las herramientas de sistema imprescindibles para ser un sistema operativo compatible con UNIX, y se destaque la cualidad de estar compuesto sólo por software libre. La primera distribución que incluyó el GNU en su nombre fue Yggdrasyl en 1992, donde aparecía como Linux/GNU/X. La FSF denominó a este sistema "Linux" hasta al menos junio de 199459? y recién a partir de enero de 1995 empezó a llamarlo "GNU/Linux" (también GNU+Linux y lignux, términos que han caído en desuso a instancias del propio Stallman).60?
+
+GNU	/	Linux
+GNU	+	Linux
+Algunas distribuciones apoyan esta denominación, e incluyen GNU/Linux en sus nombres, como Debian GNU/Linux o GNU/LinEx, mientras que otras, como Slackware, Gentoo o Ubuntu, eligen denominarse basadas en Linux.61?62?63?
+
+En ocasiones, el proyecto KDE ha utilizado una tercera denominación: GNU/Linux/X para enfatizar los tres proyectos sobre los que se apoya su entorno de escritorio.
+
+Distribuciones
+Artículo principal: Distribución Linux
+Una distribución de Linux es una distribución de software basada en el núcleo Linux que incluye determinados paquetes de software para satisfacer las necesidades de un grupo específico de usuarios, dando así origen a ediciones domésticas, empresariales y para servidores. La distribución más famosa es Ubuntu, la cual ha sido una de las que han hecho famoso a Linux en el mundo y equiparable a otros sistemas como Windows o macOS, pero Ubuntu no existiría sin Debian, una de las más antiguas y grandes distribuciones de la cual se basó Canonical para desarrollar Ubuntu.
+
+Principales distribuciones GNU/Linux
+Ubuntu, para usos generales.
+La distribución más grande y utilizada del mundo, desarrollada y mantenida por la empresa Canonical, se orienta a usos generales y se caracteriza por su compatibilidad de software y facilidad de uso equiparable a Mac OS X o Windows, es la más representativa del sistema operativo Linux. Cuenta con varias versiones, entre las que destacan: Ubuntu Desktop, Xubuntu, Lubuntu y Ubuntu Server.
+
+Fedora, para estaciones de trabajo y servidores.
+
+Distribución para propósitos generales, que se caracteriza por ser estable y seguro, la cual es desarrollada y mantenida por la empresa Red Hat y una comunidad internacional de ingenieros, diseñadores gráficos y usuarios que informan de fallos y prueban nuevas tecnologías. Sus usos se orientan más al desarrollo de software y servidores.
+
+OpenSUSE, para administración de sistemas y servicios.
+
+Distribución auspiciada por SUSE Linux GmbH (una división independiente de The Attachmate Group), y AMD. Se orienta en ofrecer un sistema operativo estable, potente y administrable para usos avanzados, pero con gran facilidad.
+
+100% Libres de Linux
+BLAG
+Dragora GNU/Linux
+Dyne:bolic
+gNewSense
+Musix GNU+Linux
+Parabola GNU/Linux
+Trisquel GNU/Linux
