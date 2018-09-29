@@ -1,0 +1,3 @@
+…or push an existing repository from the command line
+git remote add origin https://github.com/Maylin1308/MiPrimerSourceControl.git
+git push -u origin masterf
